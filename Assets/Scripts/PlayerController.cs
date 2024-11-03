@@ -60,6 +60,8 @@ public class PlayerController : MonoBehaviour
             explosionParticle.Play();
             dirtParticle.Stop();
             playerAudio.PlayOneShot(crashSound,1);
+            
+            //Game Completed
         }
         
     }
